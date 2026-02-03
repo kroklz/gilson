@@ -2,7 +2,7 @@
 <div style="display: inline_block"><br>
   <img align="center" alt="Python" height="80" width="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"/>
   <img align="center" alt="Python" height="80" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="right" alt="lala.jpg" src=https://github.com/user-attachments/assets/fd741955-39bd-49ea-bfbe-c3efdc993874)
+  <img align="right" https://github.com/user-attachments/assets/fd741955-39bd-49ea-bfbe-c3efdc993874)
 
 
 
