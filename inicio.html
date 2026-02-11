@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+ 
+/* FUNDO */
+.background-section {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.background-section video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CENTRALIZA */
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* CAIXA LOGIN */
+.conteudo {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 90px;
+  border-radius: 150px;
+  text-align: center;
+}
+
+/* 🔥 AQUI AUMENTA AS LETRAS */
+.conteudo label {
+  font-size: 23px;
+}
+
+.conteudo input {
+  font-size: 22px;
+  padding: 10px;
+  width: 260px;
+}
+
+.conteudo button {
+  font-size: 22px;
+  padding: 12px 40px;
+  margin-top: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<section>
+
+  <div class="background-section">
+    <video autoplay muted loop>
+      <source src="assets/video-fundo.mp4.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="box">
+    <div class="conteudo">
+      <label>Login</label><br><br>
+      <input type="text"><br><br>
+
+      <label>Senha</label><br><br>
+      <input type="password"><br><br>
+
+      <button name="Entrar">Entrar</button>
+      <button name="Registrar">Registrar</button>
+    </div>
+  </div>
+
+</section>
+
+</body>
+</html>
+<head>
+  <style>
+    .conteudo input {
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid #ffffff;
+      color: #000;
+      outline: none;
+    }
+
+    .conteudo button {
+      background: rgba(0, 0, 0, 0.8);
+      border: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
